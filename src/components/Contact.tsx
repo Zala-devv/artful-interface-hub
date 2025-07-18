@@ -48,10 +48,27 @@ const Contact = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-warm-gradient bg-clip-text text-transparent">
             Let's Create Together
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to bring your game vision to life? Let's discuss your project
-            and create something amazing together.
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
+            Ready to bring your game vision to life? I'd love to hear about your project
+            and discuss how we can work together to create something amazing.
           </p>
+          
+          {/* Commission CTA */}
+          <div className="bg-primary/10 backdrop-blur-sm rounded-lg p-6 border border-primary/20 mb-8">
+            <h3 className="text-2xl font-semibold text-primary mb-2">Open for Commissions</h3>
+            <p className="text-muted-foreground mb-4">
+              Custom pixel art, game UI design, and asset creation starting at competitive rates
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center gap-4 text-sm">
+              <div className="flex items-center space-x-2">
+                <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                <span>Available for new projects</span>
+              </div>
+              <div className="text-primary font-medium">
+                💼 Quick turnaround • 🎨 Unlimited revisions • 💯 100% satisfaction
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">

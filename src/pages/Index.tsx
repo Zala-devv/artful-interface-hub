@@ -2,8 +2,10 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Gallery from "@/components/Gallery";
 import UIMockups from "@/components/UIMockups";
-import Testimonials from "@/components/Testimonials";
+import Blog from "@/components/Blog";
+import FeaturedProjects from "@/components/FeaturedProjects";
 import Contact from "@/components/Contact";
+import PixelMascot from "@/components/PixelMascot";
 
 const Index = () => {
   return (
@@ -12,8 +14,10 @@ const Index = () => {
       <Hero />
       <Gallery />
       <UIMockups />
-      <Testimonials />
+      <Blog />
+      <FeaturedProjects />
       <Contact />
+      <PixelMascot />
     </div>
   );
 };

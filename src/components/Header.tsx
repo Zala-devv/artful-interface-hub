@@ -54,19 +54,25 @@ const Header = () => {
               onClick={() => scrollToSection("ui-mockups")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              UI/UX
+              UI Mockups
             </button>
             <button
-              onClick={() => scrollToSection("testimonials")}
+              onClick={() => scrollToSection("blog")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Testimonials
+              Blog
+            </button>
+            <button
+              onClick={() => scrollToSection("featured-projects")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Projects
             </button>
             <Button
               onClick={() => scrollToSection("contact")}
               className="bg-primary hover:bg-primary-glow text-primary-foreground"
             >
-              Contact
+              Hire Me
             </Button>
           </nav>
 
@@ -104,21 +110,28 @@ const Header = () => {
                 className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
               >
                 <Gamepad2 className="h-4 w-4" />
-                <span>UI/UX</span>
+                <span>UI Mockups</span>
               </button>
               <button
-                onClick={() => scrollToSection("testimonials")}
+                onClick={() => scrollToSection("blog")}
                 className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
               >
                 <User className="h-4 w-4" />
-                <span>Testimonials</span>
+                <span>Blog</span>
+              </button>
+              <button
+                onClick={() => scrollToSection("featured-projects")}
+                className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
+              >
+                <Gamepad2 className="h-4 w-4" />
+                <span>Projects</span>
               </button>
               <Button
                 onClick={() => scrollToSection("contact")}
                 className="bg-primary hover:bg-primary-glow text-primary-foreground w-fit"
               >
                 <Mail className="h-4 w-4 mr-2" />
-                Contact
+                Hire Me
               </Button>
             </div>
           </nav>

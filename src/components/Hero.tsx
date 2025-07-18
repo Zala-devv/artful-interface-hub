@@ -62,8 +62,20 @@ const Hero = () => {
               size="lg"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
-              Get In Touch
+              Hire Me for Your Project
             </Button>
+          </div>
+
+          {/* Enhanced CTA Section */}
+          <div className="mt-8 p-6 bg-card/50 backdrop-blur-sm rounded-lg border border-border/50 animate-fade-in [animation-delay:0.6s]">
+            <p className="text-sm text-muted-foreground mb-4">
+              🎮 Available for freelance projects • 🎨 Custom commissions welcome
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center gap-3 text-sm">
+              <span className="text-primary font-medium">✨ Pixel Art & Sprites</span>
+              <span className="text-primary font-medium">🎯 Game UI/UX Design</span>
+              <span className="text-primary font-medium">🏗️ Asset Packages</span>
+            </div>
           </div>
 
           <div className="mt-16 animate-bounce">
