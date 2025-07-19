@@ -9,14 +9,23 @@ import PixelMascot from "@/components/PixelMascot";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="relative">
       <Header />
-      <Hero />
-      <Gallery />
-      <UIMockups />
-      <Blog />
-      <FeaturedProjects />
-      <Contact />
+      
+      {/* Fixed Home Section */}
+      <div className="fixed inset-0 z-0">
+        <Hero />
+      </div>
+      
+      {/* Scrollable Content */}
+      <div className="relative z-10 bg-background" style={{ marginTop: '100vh' }}>
+        <Gallery />
+        <UIMockups />
+        <Blog />
+        <FeaturedProjects />
+        <Contact />
+      </div>
+      
       <PixelMascot />
     </div>
   );
