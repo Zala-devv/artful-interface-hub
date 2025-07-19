@@ -5,7 +5,6 @@ import UIMockups from "@/components/UIMockups";
 import Blog from "@/components/Blog";
 import FeaturedProjects from "@/components/FeaturedProjects";
 import Contact from "@/components/Contact";
-import PixelMascot from "@/components/PixelMascot";
 
 const Index = () => {
   return (
@@ -25,8 +24,6 @@ const Index = () => {
         <FeaturedProjects />
         <Contact />
       </div>
-      
-      <PixelMascot />
     </div>
   );
 };
